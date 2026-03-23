@@ -1,0 +1,7 @@
+{
+  "name": "carteira_academica",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
