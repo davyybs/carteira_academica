@@ -26,16 +26,31 @@
   text-decoration: none;
 }
 
+.home-content {
+  padding: 5%;
+}
+
+.home-toolbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2% 0;
+}
+
+.logo-suam {
+  width: 15%;
+}
+
 .card {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 5%;
+  padding: 6% 5%;
   border-radius: 2%;
 }
 
 img {
-  height: 75%;
+  width: 90%;
   border-radius: 2%;
 }
