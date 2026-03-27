@@ -1,15 +1,20 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <div class="about-toolbar">
-      <button routerLink="/home"><ion-icon name="arrow-back-outline" size="large"></ion-icon></button>
+      <button routerLink="/home"><ion-icon name="arrow-back-outline" size="large" color="warning"></ion-icon></button>
       <ion-title>Sobre mim</ion-title>
     </div>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <div class="about-text">
-    <!--Nome: Davi.... Idade etc-->
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit corporis harum ratione architecto, rerum veniam maiores maxime dolores omnis incidunt quos nisi consequatur sit molestias non expedita laudantium aut vitae!</p>
+  <div class="about-content">
+    <ion-card>
+      <ion-card-title>Davi Ferreira Barros da Silva</ion-card-title>
+      <ion-card-subtitle>16/05/2007</ion-card-subtitle>
+      <p>
+        Sou Desenvolvedor de Software, atualmente cursando Análise e Desenvolvimento de Sistemas na Unisuam, no momento estou aprendendo desenvolvimento mobile, utilizando Typescript, Angular e Ionic. Pretendo atuar na área trabalhando com Desenvolvimento Web ou Mobile.
+      </p>
+    </ion-card>
   </div>
 </ion-content>
